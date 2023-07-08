@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ /* header navbar section css start */
+ .navbar{
+    background: #FFF8F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+
+.nav-logo h1{
+    font-size: 33px;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.nav-logo h1:hover{
+    color: tomato;
+}
+
+.nav-logo h1 span{
+    font-size: 34px;
+    color: #FD6E0A;
+    transition: 0.8s;
+}
+
+.nav-logo h1 span:hover{
+    color: tomato;
+}
+
+
+.nav-item ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.nav-item ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.nav-item ul li a:hover{
+    color: tomato;
+}
+
+
+.nav-button button{
+    padding: 10px 20px;
+    border-radius: 2px;
+    background: #FD6E0A;
+    border: none;
+    color: #ffffff;
+    transition: 0.8s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-button button:hover{
+    background: transparent;
+    color: #000000;
+    border: 1px solid #FD6E0A;
+}
+
+/* header navbar section css end */
