@@ -175,3 +175,108 @@
     text-align: center;
 }
 /* about me section css end */
+
+
+
+/* what i do section css start */
+  .whatI-do{
+    width: 70%;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+
+  .whatI-do-text{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .whatI-do-text h1{
+    font-size: 35px;
+    text-transform: capitalize;
+  }
+
+  .whatI-do-text p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: normal;
+  }
+
+
+  .whatI-do-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    gap: 15px;
+  }
+
+  .whatI-do-card .card-1{
+    padding: 30px;
+    width: 750px;
+    height: 350px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+  }
+
+  .whatI-do-card .card-1 h2{
+    margin-top: 20px;
+  }
+
+  .whatI-do-card .card-1 p{
+    margin-top: 20px;
+  }
+
+  .whatI-do-card .card-2{
+    padding: 30px;
+    width: 750px;
+    height: 350px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+  }
+
+  .whatI-do-card .card-2 h2{
+    margin-top: 20px;
+  }
+
+  .whatI-do-card .card-2 p{
+    margin-top: 20px;
+  }
+
+
+  .whatI-do-card .card-3{
+    padding: 30px;
+    width: 750px;
+    height: 350px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+  }
+
+  .whatI-do-card .card-3 h2{
+    margin-top: 20px;
+  }
+
+  .whatI-do-card .card-3 p{
+    margin-top: 20px;
+  }
+
+
+  .whatI-do-card .card-4{
+    padding: 30px;
+    width: 750px;
+    height: 350px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+  }
+
+  .whatI-do-card .card-4 h2{
+    margin-top: 20px;
+  }
+
+  .whatI-do-card .card-4 p{
+    margin-top: 20px;
+  }
+/* what i do section css end */
+
