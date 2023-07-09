@@ -419,3 +419,79 @@
 }
 
 /* Resume section css end */
+
+
+/* footer section css start */
+.footer{
+    margin: 120px auto 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    background: #FFF8F3;
+    padding: 100px 50px 100px 50px;
+}
+
+.footer-content{
+    width: 50%;
+}
+
+.footer-content h1{
+   font-size: 35px;
+   text-transform: capitalize;
+}
+
+.footer-content p{
+    margin-top: 20px;
+}
+
+.footer-content .icon{
+    margin-top: 20px;
+}
+
+.footer-form{
+    width: 50%;
+}
+.footer-form h1{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+/* .footer-form input[type="text"]{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    background: #FFF;
+}
+
+.footer-form input[type="email"]{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.footer-form textarea{
+    margin-top: 10px;
+    width: 100%;
+} */
+
+.footer-form input[type="text"],  input[type="email"], textarea{
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    color: gray;
+    border: 0;
+    border-radius: 2px;
+    background: #FFF;
+    width: 100%;
+}
+
+.footer-form input[type="submit"]{
+    background: #FD6E0A;
+    color: #FFF;
+    padding: 15px 35px;
+    border-radius: 2px;
+    border: none;
+}
+/* footer section css end */
