@@ -280,3 +280,142 @@
   }
 /* what i do section css end */
 
+
+
+
+/* Resume section css start */
+.resume{
+    margin: 120px auto;
+    width: 70%;
+}
+
+.resume-title h1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.reume-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.reume-container .education .div-2{
+    margin-top: 20px;
+}
+
+.reume-container .education .div-1 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.reume-container .education .div-1 h2{
+    margin-top: 15px;
+}
+
+.reume-container .education .div-1 p{
+    margin-top: 15px;
+}
+
+.reume-container .education .div-3{
+    margin-top: 20px;
+}
+
+.reume-container .education .div-2 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.reume-container .education .div-2 h2{
+    margin-top: 15px;
+}
+
+.reume-container .education .div-2 p{
+    margin-top: 15px;
+}
+
+.reume-container .education .div-3 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.reume-container .education .div-3 h2{
+    margin-top: 15px;
+}
+
+.reume-container .education .div-3 p{
+    margin-top: 15px;
+}
+
+/* resume experience */
+.reume-container .experience .div-1 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.reume-container .experience .div-1 h2{
+    margin-top: 15px;
+}
+
+.reume-container .experience .div-1 p{
+    margin-top: 15px;
+}
+
+.reume-container .experience .div-2{
+    margin-top: 20px;
+}
+
+
+.reume-container .experience .div-2 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.reume-container .experience .div-2 h2{
+    margin-top: 15px;
+}
+
+.reume-container .experience .div-2 p{
+    margin-top: 15px;
+}
+
+.reume-container .experience .div-3{
+    margin-top: 20px;
+}
+
+.reume-container .experience .div-3 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.reume-container .experience .div-3 h2{
+    margin-top: 15px;
+}
+
+.reume-container .experience .div-3 p{
+    margin-top: 15px;
+}
+
+.resume-hr{
+    width: 80%;
+    margin-top: 10px;
+    color: gray;
+    border: 1px solid grey;
+}
+
+.reume-btn{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.reume-btn .btn-r{
+    padding: 15px 30px;
+    border: none;
+    background-color: #FD6E0A;
+    color: #FFF;
+    border-radius: 2px;
+}
+
+/* Resume section css end */
