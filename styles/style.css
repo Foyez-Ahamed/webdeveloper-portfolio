@@ -139,8 +139,8 @@
 }
 
 .banner-image img {
-    width: 584px;
-    height: 676px;
+    width: 100%;
+    /* height: 676px; */
 }
 /* Banner section css end */
 
@@ -501,4 +501,73 @@
     text-align: center;
     margin: 30px auto;
 }
+
+.hide{
+    display: none;
+}
 /* footer section css end */
+
+
+/* responsive for mobile device */
+
+@media only screen and (max-width: 575px) {
+    .navbar, .nav-item ul , .banner , .about-contact, .whatI-do-card, .reume-container, .footer {
+        flex-direction: column;
+    }
+    .nav-logo h1{
+       padding: 0;
+    }
+
+    .banner-text{
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .banner{
+        background-image: none;
+    }
+
+    .about-me{
+        padding: 10px;
+    }
+
+    .about-contact {
+       gap: 20px;
+    }
+    .whatI-do-card .card-1, .whatI-do-card .card-2, .whatI-do-card .card-3, .whatI-do-card .card-4{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .footer{
+        padding: 10px;
+    }
+   
+    .footer-content{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-form{
+        width: 100%;
+    }
+
+  }
+
+ /* responsive for mobile device */
+
+
+
+ /*  responsive for medium device */
+ @media only screen and (min-width: 575px) and (max-width: 992px){
+   .banner-text{
+     padding: 10px;
+   }
+   .about-me, .whatI-do, .resume, .footer{
+    width: 95%;
+   }
+   .about-contact{
+     gap: 5px;
+   }
+ }
+ /*  responsive for medium device */
